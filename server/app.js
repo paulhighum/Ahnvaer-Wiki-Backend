@@ -10,6 +10,4 @@ app.get("/", (request, response) => {
   response.json(data)
 })
 
-app.listen(port, () => {
-  console.log("listening", port)
-})
+app.listen(port)
