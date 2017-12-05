@@ -3,42 +3,42 @@ const races = [
     id: 1,
     name: "Thallarite",
     description: "",
-    "common geography": {
+    geography: {
       cities: ["Corsaya", "Enia"]
     }
   },{
     id: 2,
     name: "Garethan",
     description: "",
-    "common geography": {
+    geography: {
       cities: ["Caprifar", "Knovaya City", "Barosh's Hold", "Cerrar", "Ovoule"]
     }
   },{
     id: 3,
     name: "Fyrenian",
     description: "",
-    "common geography": {
+    geography: {
       cities: ["Ovoule", "Jalowna", "Suhnberg", "Melmejin", "Tobbindru"]
     }
   },{
     id: 4,
     name: "Pelvoshi",
     description: "",
-    "common geography": {
+    geography: {
       cities: [""]
     }
   },{
     id: 5,
     name: "Lurthen",
     description: "",
-    "common geography": {
+    geography: {
       cities: [""]
     }
   },{
     id: 6,
     name: "Faltaron",
     description: "",
-    "common geography": {
+    geography: {
       cities: ["Ahndaril", "Valint"]
     }
   }

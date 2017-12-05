@@ -9,8 +9,8 @@ app.use(cors())
 
 function addRegionsToRaces(data){
   updatedRaces = data.races.map((race) => {
-    race["common geography"].regions = []
-    race["common geography"].cities.forEach(city => {
+    race.geography.regions = []
+    race.geography.cities.forEach(city => {
       for(var i=0; i<data.regions.length; i++){
         for(var j=0; j<data.regions[i].cities.length; j++){
           if(city === data.regions[i].cities[j]){
