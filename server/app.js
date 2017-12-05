@@ -33,7 +33,6 @@ module.exports = {
   addRegionsToRaces
 }
 
-
 app.get("/", (request, response) => {
   response.json(updatedRaces)
 })
