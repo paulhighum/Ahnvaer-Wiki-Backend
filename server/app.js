@@ -14,8 +14,8 @@ function addRegionsToRaces(data){
       for(var i=0; i<data.regions.length; i++){
         for(var j=0; j<data.regions[i].cities.length; j++){
           if(city === data.regions[i].cities[j]){
-            if(race["common geography"].regions.includes(data.regions[i].name)===false) {
-              race["common geography"].regions.push(data.regions[i].name)
+            if(race.geography.regions.includes(data.regions[i].name)===false) {
+              race.geography.regions.push(data.regions[i].name)
             }
           }
         }
