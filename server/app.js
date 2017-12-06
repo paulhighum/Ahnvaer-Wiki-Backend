@@ -42,5 +42,5 @@ app.listen(port)
 
 app.post("/", (req, resp) => {
   updatedRaces.push(req.body)
-  resp.json("it worked")
+  resp.json(updatedRaces)
 })
