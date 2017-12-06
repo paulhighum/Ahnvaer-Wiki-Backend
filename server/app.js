@@ -10,7 +10,7 @@ const app = express()
 app.use(cors())
 
 function addRegionsToRaces(races, regions){
-  updatedRaces = data.races.map((race) => {
+  return updatedRaces = races.map((race) => {
     race.geography.regions = []
     race.geography.cities.forEach(city => {
       for(var i=0; i<regions.length; i++){
@@ -25,7 +25,6 @@ function addRegionsToRaces(races, regions){
     })
     return race
   })
-  return updatedRaces
 }
 addRegionsToRaces(races, regions)
 
