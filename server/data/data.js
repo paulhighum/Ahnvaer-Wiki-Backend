@@ -36,7 +36,7 @@ const races = [
     }
   },{
     id: 6,
-    name: "Faltaron",
+    name: "Faltarron",
     description: "",
     geography: {
       cities: ["Ahndaril", "Valint"]
