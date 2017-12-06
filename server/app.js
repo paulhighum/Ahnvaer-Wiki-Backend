@@ -2,12 +2,14 @@ const express = require("express")
 const cors = require("cors")
 const port = process.env.PORT || 3000
 const data = require("./data/data.js")
+const bodyParser = require("body-parser")
 let races = data.races
 let regions = data.regions
-let updatedRaces = {}
+let updatedRaces = []
 
 const app = express()
 app.use(cors())
+app.use(bodyParser.json())
 
 function addRegionsToRaces(races, regions){
   return updatedRaces = races.map((race) => {
@@ -32,8 +34,13 @@ module.exports = {
   addRegionsToRaces
 }
 
-app.get("/", (request, response) => {
-  response.json(updatedRaces)
+app.get("/", (req, resp) => {
+  resp.json(updatedRaces)
 })
 
 app.listen(port)
+
+app.post("/", (req, resp) => {
+  updatedRaces.push(req.body)
+  resp.json("it worked")
+})
