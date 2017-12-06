@@ -4,7 +4,7 @@
   "description": "Data for Ahnvaer ",
   "main": "./server/app.js",
   "scripts": {
-    "test": "mocha test",
+    "test": "mocha --exit test",
     "start": "node server/app.js"
   },
   "author": "Paul Highum",

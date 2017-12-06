@@ -1,10 +1,12 @@
 const assert = require("assert")
 const app = require("../server/app.js")
+const data = require("../server/data/data.js")
+const inputRaces = data.races
+const inputRegions = data.regions
 
 
 const outPutArray = [
   {
-    "id": 1,
     "name": "Thallarite",
     "description": "",
     "geography": {
@@ -18,7 +20,6 @@ const outPutArray = [
     }
   },
   {
-    "id": 2,
     "name": "Garethan",
     "description": "",
     "geography": {
@@ -36,7 +37,6 @@ const outPutArray = [
     }
   },
   {
-    "id": 3,
     "name": "Fyrenian",
     "description": "",
     "geography": {
@@ -54,7 +54,6 @@ const outPutArray = [
     }
   },
   {
-    "id": 4,
     "name": "Pelvoshi",
     "description": "",
     "geography": {
@@ -65,7 +64,6 @@ const outPutArray = [
     }
   },
   {
-    "id": 5,
     "name": "Lurthen",
     "description": "",
     "geography": {
@@ -76,8 +74,7 @@ const outPutArray = [
     }
   },
   {
-    "id": 6,
-    "name": "Faltaron",
+    "name": "Faltarron",
     "description": "",
     "geography": {
       "cities": [
@@ -88,84 +85,6 @@ const outPutArray = [
         "Alahnvaer"
       ]
     }
-  }
-]
-
-const inputRaces = [
-  {
-    id: 1,
-    name: "Thallarite",
-    description: "",
-    geography: {
-      cities: ["Corsaya", "Enia"]
-    }
-  },{
-    id: 2,
-    name: "Garethan",
-    description: "",
-    geography: {
-      cities: ["Caprifar", "Knovaya City", "Barosh's Hold", "Cerrar", "Ovoule"]
-    }
-  },{
-    id: 3,
-    name: "Fyrenian",
-    description: "",
-    geography: {
-      cities: ["Ovoule", "Jalowna", "Suhnberg", "Melmejin", "Tobbindru"]
-    }
-  },{
-    id: 4,
-    name: "Pelvoshi",
-    description: "",
-    geography: {
-      cities: [""]
-    }
-  },{
-    id: 5,
-    name: "Lurthen",
-    description: "",
-    geography: {
-      cities: [""]
-    }
-  },{
-    id: 6,
-    name: "Faltaron",
-    description: "",
-    geography: {
-      cities: ["Ahndaril", "Valint"]
-    }
-  }
-]
-
-const inputRegions = [
-  {
-    "region-id": 1,
-    name: "Angareel",
-    cities: ["Corsaya", "Enia"]
-  },{
-    "region-id": 2,
-    name: "Grasulahn",
-    cities: ["Caprifar", "Knovaya City", "Barosh's Hold"]
-  },{
-    "region-id": 3,
-    name: "The Siphaer Delta",
-    cities: ["Cerrar", "Ovoule"]
-  },{
-    "region-id": 4,
-    name: "The Zeeran Desert",
-    cities: ["Jalowna", "Suhnberg", "Melmejin", "Tobbindru"]
-  },{
-    "region-id": 5,
-    name: "Khopeshka",
-    cities: []
-  },{
-    "region-id": 6,
-    name: "Chaos Coast",
-    cities: []
-  },{
-    "region-id": 7,
-    name: "Alahnvaer",
-    cities: ["Ahndaril", "Valint"]
   }
 ]
 
