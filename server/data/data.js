@@ -1,13 +1,13 @@
 const races = [
   {
     name: "Thallarite",
-    description: "Thallarites are a small statured race ",
+    description: "Thallarites are a small statured race, the tallest of which stand about as tall as the smallest of humans. Their ears are huge in comparison to the rest of their bodies and heads, and stick out as opposed to lying flat as human ears do. Their hair is often thicker and fuller than human hair. Their eyes, though, come in mostly the same shades and colors as those of human eyes. What truly sets Thallarites apart, however, are their feet. Their feet are nearly as agile as their hands, allowing them to grab things and pick them up as easily as a human does with their hands, or to walk along ropes or trees as easily as a human walks on the ground.   ",
     geography: {
       cities: ["Corsaya", "Enia"]
     }
   },{
     name: "Garethan",
-    description: "Garethans, as a race, were enormous, towering at heights of up to eight feet. But they were more than just tall; they were large, with thickset muscular bodies that held a strength that could crush boulders and bullish large heads with broad flat faces. Their skin did not soften their appearance for it ranged in color from a stoic gray to an impenetrable black and was so rough and leathery that most airborne projectiles failed to pierce it. Yet it was neither their size nor their strength that most physically distinguished them, but their head and back spikes. These spikes protruded over eight inches and a constant line of them began at their forehead, went up over the crown of their skull, and started down their spine before fading away. The spikes were more than just fearsome in appearance, they were deadly, capable of impalling a man with a head-butt",
+    description: "Garethans, as a race, are enormous, towering at heights of up to eight feet. But they are more than just tall; they are large, with thickset muscular bodies that hold a strength that can crush boulders and bullish large heads with broad flat faces. Their skin does not soften their appearance for it ranges in color from a stoic gray to an impenetrable black and is so rough and leathery that most airborne projectiles fail to pierce it. Yet it is neither their size nor their strength that most physically distinguishes them, but their head and back spikes. These spikes protrude over eight inches and a constant line of them begin at their forehead, go up over the crown of their skull, and start down their spine before fading away. The spikes are more than just fearsome in appearance, they are deadly, capable of impaling a man with a head-butt",
     geography: {
       cities: ["Caprifar", "Knovaya City", "Barosh's Hold", "Cerrar", "Ovoule"]
     }
