@@ -11,28 +11,58 @@ const app = express()
 app.use(cors())
 app.use(bodyParser.json())
 
+// function addRegionsToRaces(races, regions){
+//   return updatedRaces = races.map((race) => {
+//     race.geography.regions = []
+//     race.geography.cities.forEach(city => {
+//       for(var i=0; i<regions.length; i++){
+//         for(var j=0; j<regions[i].cities.length; j++){
+//           if(city === regions[i].cities[j]){
+//             if(race.geography.regions.includes(regions[i].name)===false) {
+//               race.geography.regions.push(regions[i].name)
+//             }
+//           }
+//         }
+//       }
+//     })
+//     return race
+//   })
+// }
+// addRegionsToRaces(races, regions)
+
 function addRegionsToRaces(races, regions){
-  return updatedRaces = races.map((race) => {
-    race.geography.regions = []
-    race.geography.cities.forEach(city => {
-      for(var i=0; i<regions.length; i++){
-        for(var j=0; j<regions[i].cities.length; j++){
-          if(city === regions[i].cities[j]){
-            if(race.geography.regions.includes(regions[i].name)===false) {
-              race.geography.regions.push(regions[i].name)
-            }
-          }
-        }
-      }
-    })
-    return race
-  })
+  addsRegionArrayToRaces(races)
 }
 addRegionsToRaces(races, regions)
 
-module.exports = {
-  addRegionsToRaces
+function addsRegionArrayToRaces(races){
+  return updatedRaces = races.map((race) => {
+    race.geography.regions = []
+    matchesCitiesWithRegions(races, regions)
+    return race
+  })
 }
+
+function matchesCitiesWithRegions(races, regions){
+  race.geography.cities.forEach(city => {
+    regionsLoop(regions)
+  })
+}
+//
+// function regionsLoop(regions){
+//   for(var i=0; regions.length; i++){
+//     citiesLoop(regions[i].cities)
+//   }
+// }
+//
+// function citiesLoop(cities){
+//   for(var j=0; j<cities.length; j++){
+//     if(race.geography.regions.includes(regions[i].name)===false) {
+//       race.geography.regions.push(regions[i].name)
+//     }
+//   }
+// }
+
 
 app.get("/", (req, resp) => {
   resp.json(updatedRaces)
@@ -44,3 +74,8 @@ app.post("/", (req, resp) => {
   updatedRaces.push(req.body)
   resp.json(updatedRaces)
 })
+
+module.exports = {
+  addRegionsToRaces,
+  addsRegionArrayToRaces
+}
