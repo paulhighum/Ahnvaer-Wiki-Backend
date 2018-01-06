@@ -21,13 +21,13 @@ const races = [
     name: "Pelvoshi",
     description: "",
     geography: {
-      cities: [""]
+      cities: ["Boondu", "Fykos", "Ayetemba"]
     }
   },{
     name: "Lurthen",
     description: "",
     geography: {
-      cities: [""]
+      cities: ["Elinghor"]
     }
   },{
     name: "Faltarron",
