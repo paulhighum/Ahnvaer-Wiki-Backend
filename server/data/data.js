@@ -56,10 +56,19 @@ const regions = [
     cities: []
   },{
     name: "Chaos Coast",
-    cities: []
+    cities: ["Elinghor"]
   },{
     name: "Alahnvaer",
     cities: ["Ahndaril", "Valint"]
+  },{
+    name: "Mirfolas",
+    cities: ["Boondu"]
+  },{
+    name: "Dyefolas",
+    cities: ["Ayetemba"]
+  }, {
+    name: "Bhoak",
+    cities: ["Fykos"]
   }
 ]
 

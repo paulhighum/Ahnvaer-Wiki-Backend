@@ -76,6 +76,5 @@ app.post("/", (req, resp) => {
 })
 
 module.exports = {
-  addRegionsToRaces,
-  addsRegionArrayToRaces
+  addRegionsToRaces
 }
