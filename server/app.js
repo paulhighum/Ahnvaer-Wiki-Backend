@@ -1,7 +1,8 @@
 const express = require("express")
 const cors = require("cors")
 const port = process.env.PORT || 3000
-const dataTools = require("./data")
+const DataTools = require("./data")
+const dataTools = DataTools()
 const bodyParser = require("body-parser")
 
 
