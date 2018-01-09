@@ -5,7 +5,6 @@ const DataTools = require("./data")
 const dataTools = DataTools()
 const bodyParser = require("body-parser")
 
-
 const app = express()
 app.use(cors())
 app.use(bodyParser.json())
