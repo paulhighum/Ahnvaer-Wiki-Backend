@@ -24,7 +24,7 @@ const races = [
   },
   {
     name: "Pelvoshi",
-    description: "Pelvoshi: Pelvoshi are a small race, being roughly the same height as Thallarites. Their skin, though, sets them drastically apart, coming only in pale shades of pink and purple. Their ears are double pointed, similar to Fyrenian ears, with both the bottom lobes and top tips elongated and pointed. As a race they are renowned for their ivory and hand carved goods.",
+    description: "Pelvoshi are a small race, being roughly the same height as Thallarites. Their skin, though, sets them drastically apart, coming only in pale shades of pink and purple. Their ears are double pointed, similar to Fyrenian ears, with both the bottom lobes and top tips elongated and pointed. As a race they are renowned for their ivory and hand carved goods.",
     geography: {
       cities: ["Boondu", "Fykos", "Ayetemba"]
     }
