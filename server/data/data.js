@@ -17,28 +17,28 @@ const races = [
   },
   {
     name: "Fyrenian",
-    description: "",
+    description: "Fyrenians are a medium sized race with a very similar physical build to humans, though there are some key differences between the races. Where human skin tones vary widely, Fyrenian skin tones only range from dark brown to near black. Fyrenian hair is similarly narrow, only coming in shade of white and blonde. Every Fyrenian has detached ear lobes and both the top tips and bottom lobes are elongated and pointed at the tip. They are a race shaped for their desert homeland. Their nearly black skin protects any exposed patches from sunburn, while their elongated and double pointed ears dissipate large amounts of heat. Their features, from their discernable ears to their chin, nose, and cheekbones, are pointed as if chiseled to tips by the desert’s sand-winds.",
     geography: {
       cities: ["Ovoule", "Jalowna", "Suhnberg", "Melmejin", "Tobbindru"]
     }
   },
   {
     name: "Pelvoshi",
-    description: "",
+    description: "Pelvoshi: Pelvoshi are a small race, being roughly the same height as Thallarites. Their skin, though, sets them drastically apart, coming only in pale shades of pink and purple. Their ears are double pointed, similar to Fyrenian ears, with both the bottom lobes and top tips elongated and pointed. As a race they are renowned for their ivory and hand carved goods.",
     geography: {
       cities: ["Boondu", "Fykos", "Ayetemba"]
     }
   },
   {
     name: "Lurthen",
-    description: "",
+    description: "Lurthens are an ancient race that many other upper races do not believe actually exist due to their incredible rarity. They are a medium sized race, on average a little larger than humans, and their hair is nearly always black. Their skin is similarly black, except for the endless swirling patterns of silver or gold that blanket their skin. These patterns occur in either circular or rectangular spirals, with no two Lurthens having the same pattern.",
     geography: {
       cities: ["Elinghor"]
     }
   },
   {
     name: "Faltarron",
-    description: "",
+    description: "Faltarrons are a feathered upper race common in the north-western reaches of Ahnvaer. Instead of hair, both male and female members of the race have thick plumes of feathers on their heads. They are a medium sized race, about the same size as humans, and are imbued with incredible agility. ",
     geography: {
       cities: ["Ahndaril", "Valint"]
     }
